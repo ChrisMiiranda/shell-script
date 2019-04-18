@@ -140,3 +140,13 @@ while [  $y -le 10  ]; do
    y=$[ $y + 1 ]
 done
 ```
+
+## Referências
+
+Jargas, Aurelio Marinho. Shell script profissional. Novatec Editora, 2008.
+
+Bash- Estruturas Básicas. Disponível em http://www.dicas-l.com.br/cantinhodoshell/cantinhodoshell_20070621.php#.XLi4YpNKjG5
+
+Canivete Suíço do Shell (Bash). Disponível em https://aurelio.net/shell/canivete/
+
+
