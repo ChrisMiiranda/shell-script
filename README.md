@@ -1,6 +1,12 @@
 # shell-script
 Comandos e estruturas do shell script
 
+
+Indica qual o interpretador a ser utilizado. Deve estar na primeira linha do arquivo. Conhecido por *Shebang*
+```shell
+#!/usr/bash
+```
+
 Comentário
 
 ```shell
@@ -19,9 +25,9 @@ Exibir o valor da variáveis no terminal
 echo $x
 ```
 
-Operação de Matemáticas
+Operação de Aritméticas
 
-| Operação Aritmética |    | Exemplo |
+| Operação            |    | Exemplo |
 |---------------------|----|---------|
 | Adição              | +  |   ```x=$(($x+1)) ```      |
 | Subtração           | -  |   ```x=$(($x-1)) ```       |
@@ -29,6 +35,13 @@ Operação de Matemáticas
 | Divisão             | /  |    ```x=$(($x/1)) ```      |
 | Módulo              | %  |    ```x=$(($x%1)) ```      |
 | Exponenciação       | ** |    ```x=$(($x**1)) ```      |
+
+Deve-se utilizar ```$``` seguidos por ```(( ))```.
+Outra maneira de representar um cálculo utilizando ```$[ ]```.
+
+```shell
+x=$[ $x * 10 ] 
+```
 
 Operação entre duas variáveis
 
