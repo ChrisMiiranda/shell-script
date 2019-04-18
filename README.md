@@ -1,6 +1,11 @@
-# shell-script
-Comandos e estruturas do shell script
+<p align="center">
+  <img src="assets/imgs/00-logo.png" width="150">
+<h1 align="center"> Shell Script </h1>
+</p>
 
+Shell script é uma linguagem de script usada em diversos sistemas operacionais, com diferentes dialetos, dependendo do interpretador de comandos utilizado. 
+
+## Comandos
 
 Indica qual o interpretador a ser utilizado. Deve estar na primeira linha do arquivo. Conhecido por *Shebang*
 ```shell
