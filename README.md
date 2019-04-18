@@ -21,16 +21,14 @@ echo $x
 
 Operação de Matemáticas
 
-```shell
-# Adição
-x=$(($x+1)) 
-# Subtração
-x=$(($x-1)) 
-# Divisão
-x=$(($x/2)) 
-# Multiplicação
-x=$(($x*1)) 
-```
+| Operação Aritmética |    | Exemplo |
+|---------------------|----|---------|
+| Adição              | +  |   ```x=$(($x+1)) ```      |
+| Subtração           | -  |   ```x=$(($x-1)) ```       |
+| Multiplicação       | *  |   ```x=$(($x*1)) ```       |
+| Divisão             | /  |    ```x=$(($x/1)) ```      |
+| Módulo              | %  |    ```x=$(($x%1)) ```      |
+| Exponenciação       | ** |    ```x=$(($x**1)) ```      |
 
 Operação entre duas variáveis
 
