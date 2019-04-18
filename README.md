@@ -71,7 +71,31 @@ Recebendo parâmetros. Na hora da execução do script shell, deve-se informar o
 
 No script, se acessa ao parâmetro através do ```$```. Por exemplo, o primeiro parâmetro é ```$1```, o segundo é ```$2```, assim por diante.
 
-```shel
+```shell
 #!/bin/bash
 echo "Valor do parametro= $1"
 ```
+Operadores relacionais
+
+| Comparação Numérica |     | Exemplo |
+|---------------------|-----|---------|
+| é menor que         | -lt |  ``` 10 -lt $z  ```    |
+| é maior que         | -gt |  ``` 10 -gt $z  ```      |
+| é menor igual       | -le |  ``` 10 -le $z  ```       |
+| é maior igual       | -ge |  ``` 10 -ge $z  ```       |
+| é igual             | -eq |  ``` 10 -eq $z  ```       |
+| é diferente         | -ne |  ``` 10 -ne $z  ```       |
+
+| Comparação de Strings |     | Exemplo |
+|-----------------------|-----|---------|
+| é igual               | = |  ``` $y = "texto"  ```    |
+| é diferente           | != |  ``` $y != "texto"  ```      |
+
+| Operadores lógicos    |     | Exemplo |
+|-----------------------|-----|---------|
+| não lógico (NOT)       | ! |  ``` ! $y -eq 1   ```    |
+| E   lógico (AND)       | -a |  ``` $y -eq 1 -a $y -le $z  ```      |
+| OU   lógico  (OR)      | -o |  ``` $y -eq 1 -o $y -le $z  ```      |
+
+
+
