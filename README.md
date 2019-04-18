@@ -98,7 +98,7 @@ Operadores relacionais
 | OU   lógico  (OR)      | -o |  ``` $y -eq 1 -o $y -le $z  ```      |
 
 
-Estrutura de decisão
+Estrutura de decisão. Comando vai entre os ```[ ];```. O ```;``` é obrigatório.
 
 ```shell
 if COMANDO then
@@ -113,7 +113,7 @@ fi
 Exemplo
 
 ```shell
-if [ $x -gt 0 ] then
+if [ $x -gt 0 ]; then
    echo "dentro do if"
 fi
 ```
