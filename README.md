@@ -98,4 +98,40 @@ Operadores relacionais
 | OU   lógico  (OR)      | -o |  ``` $y -eq 1 -o $y -le $z  ```      |
 
 
+Estrutura de decisão
 
+```shell
+if COMANDO then
+   ...
+elif COMANDO then
+   ...
+else
+   ...
+fi
+```
+
+Exemplo
+
+```shell
+if [ $x -gt 0 ] then
+   echo "dentro do if"
+fi
+```
+
+Estrutura de repetição
+
+```shell
+while COMANDO do
+  ...
+done
+```
+
+Exemplo
+
+```shell
+y=2
+while [  $y -le 10  ]; do
+   echo "y = $y"
+   y=$[ $y + 1 ]
+done
+```
