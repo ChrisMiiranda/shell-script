@@ -13,7 +13,7 @@ Comentário
 # Meu comentário
 ```
 
-Criaçāo de variáveis
+Criaçāo de variáveis. Não deve conter espaços entre o nome da variável, sinal de ```=``` e o valor.
 
 ```shell
 x=0
@@ -47,6 +47,7 @@ Operação entre duas variáveis
 
 ```shell
 z=$(($x*$y))
+z=$[ $x * $y ]
 ```
 
 Imprimir um texto com o valor de uma variável
@@ -60,4 +61,17 @@ Entrada de dados. ```z``` é a variavel que será armazenada o conteúdo digitad
 
 ```shell
 read z
+```
+
+Recebendo parâmetros. Na hora da execução do script shell, deve-se informar os parâmetros separados por espaços.
+
+```shell
+./shell_script.sh parametro1
+```
+
+No script, se acessa ao parâmetro através do ```$```. Por exemplo, o primeiro parâmetro é ```$1```, o segundo é ```$2```, assim por diante.
+
+```shel
+#!/bin/bash
+echo "Valor do parametro= $1"
 ```
