@@ -118,7 +118,16 @@ fi
 Exemplo
 
 ```shell
+# x é maior que 0?
 if [ $x -gt 0 ]; then
+   echo "dentro do if"
+fi
+```
+
+
+```shell
+# parametro $1 é diferente de nulo?
+if [ $1 ]; then
    echo "dentro do if"
 fi
 ```
@@ -134,7 +143,8 @@ done
 Exemplo
 
 ```shell
-y=2
+# Imprime o valor de y, de 1 ate 10
+y=1
 while [  $y -le 10  ]; do
    echo "y = $y"
    y=$[ $y + 1 ]
