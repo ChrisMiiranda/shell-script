@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/imgs/00-logo.png" width="150">
+  <img src="00-logo.jpg" width="150">
 <h1 align="center"> Shell Script </h1>
 </p>
 
